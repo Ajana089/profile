@@ -1,0 +1,86 @@
+<div class="container" style="background-color:aliceblue;">
+
+      <div class="row">
+        <div class="col"style="margin-top:80px">
+          <div>
+                                  <br>
+                                  <br>
+          <h5>Some projects i have worked on</h5>
+          <!-- <ul>
+            <li> Library Application       <a href="https://frontendlibrary.herokuapp.com/
+              ">click me</a> </li>
+             
+           
+          <li>Kerala Website   <a href=" https://ajana089.github.io/keralawebvalidationform/">click me</a></li>  
+          
+                     
+          </ul> -->
+          
+</div>
+<div style="background-color:darkorange;text-align: center;">
+  <h4 >Projects</h4>
+  <img [src]="image" alt="" style="width:175px;height:150px">
+
+  <img [src]="image1" alt="" style="width:175px;height:150px">
+  <br>
+  
+  <img [src]="image2" alt="" style="width:175px;height:150px">
+ 
+  <img [src]="image2" alt="" style="width:175px;height:150px">
+   <!-- <img [src]="image1" alt="" style="width:175px;height:150px">
+  <img [src]="image" alt="" style="width:175px;height:150px">
+  
+   -->
+  </div>
+          
+          
+         </div>
+         <div  class="col" style="background-color:darkorange;margin-top:80px;">
+          <br><br><br><br><br><br><br><br><br><br>
+       <h4>Explore more Projects</h4> 
+      <br><br><br><br><br><b></b> 
+
+      <div class="exp">
+        <h3><a href="service">Skills</a></h3>
+      </div>
+         </div>
+
+        
+         <div class="col" style="background-color:aliceblue;width:300px;">
+          
+            <ngb-carousel *ngIf="images" >
+                <ng-template ngbSlide>
+                  <div class="picsum-img-wrapper">
+                    <img [src]="images[0]" alt="Random first slide">
+                  </div>
+                  <div class="carousel-caption">
+                    <h3>Kerala Tourism Website</h3>
+                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                  </div>
+                </ng-template>
+                <ng-template ngbSlide>
+                  <div class="picsum-img-wrapper">
+                    <img [src]="images[1]" alt="Random second slide">
+                  </div>
+                  <div class="carousel-caption">
+                    <h3>Library Application</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  </div>
+                </ng-template>
+                <ng-template ngbSlide>
+                  <div class="picsum-img-wrapper">
+                    <img [src]="images[2]" alt="Random third slide">
+                  </div>
+                  <div class="carousel-caption">
+                    <h3>PortFolio</h3>
+                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                  </div>
+                </ng-template>
+              </ngb-carousel>
+              
+            </div>
+           
+            
+          </div>
+         
+    </div>
